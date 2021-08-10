@@ -1,0 +1,202 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "VARIFY SWAGLABS CHECKOUT HOMEPAGE",
+        "description": "",
+        "id": "add-to-cart-functionality;varify-swaglabs-checkout-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8868484100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "OPEN SWAGLABS \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 15
+                }
+              ],
+              "location": "QA_loginStepDefination.open_SWAGLABS(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6474701400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "ENTER valid USER ID PASSWORD AND CLICK SIGN IN",
+            "match": {
+              "location": "QA_loginStepDefination.enter_valid_USER_ID_PASSWORD_AND_CLICK_SIGN_IN()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5216261000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click ON SACUCE LABS BACKPACK",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_SACUCE_LABS_BACKPACK()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5140114500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "CLICK ON ADD TO CART",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_ADD_TO_CART()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5175068200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "CLICK ON BACK TO PRODUCTS",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_BACK_TO_PRODUCTS()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5148279300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "CLICK ON SAUCE LABS BIKE LIGHT",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_SAUCE_LABS_BIKE_LIGHT()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5119977100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "CLICK ON ADD TO CART AGAIN",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_ADD_TO_CART_AGAIN()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5141667800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "CLICK ON CART SIGN BY TOP CORNER",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_CART_SIGN_BY_TOP_CORNER()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5120305400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "CLICK ON REMOVE SAUCE LABS BIKE LIGHT",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_REMOVE_SAUCE_LABS_BIKE_LIGHT()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5146676000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "CLICK ON CHECK OUT",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_CHECK_OUT()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5609514800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "FIRST NAME LAST NAME AND ZIP CODE",
+            "match": {
+              "location": "QA_homeStepDefination.first_NAME_LAST_NAME_AND_ZIP_CODE()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5233666500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "CLICK CONTINUE",
+            "match": {
+              "location": "QA_homeStepDefination.click_CONTINUE()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5225750800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "CLICK ON FINISH",
+            "match": {
+              "location": "QA_homeStepDefination.click_ON_FINISH()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5417196600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "VERIFY THE CHECKOUT HOMEPAGE",
+            "match": {
+              "location": "QA_homeStepDefination.verify_THE_CHECKOUT_HOMEPAGE()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@swaglabs_checkout_page"
+          }
+        ]
+      }
+    ],
+    "name": "Add to Cart functionality",
+    "description": "",
+    "id": "add-to-cart-functionality",
+    "keyword": "Feature",
+    "uri": "Qa_home.feature"
+  }
+]

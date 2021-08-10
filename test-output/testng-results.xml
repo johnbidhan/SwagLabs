@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T15:17:46 CDT" name="Default suite" finished-at="2021-08-08T15:19:25 CDT" duration-ms="99032">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-08T15:17:46 CDT" name="Default test" finished-at="2021-08-08T15:19:25 CDT" duration-ms="99032">
+      <class name="Qa.TestRunner.Qa_test_runner">
+        <test-method is-config="true" signature="LaunchApplicationURL()[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" started-at="2021-08-08T15:17:46 CDT" name="LaunchApplicationURL" finished-at="2021-08-08T15:18:02 CDT" duration-ms="15906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplicationURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" started-at="2021-08-08T15:18:02 CDT" name="setUpClass" finished-at="2021-08-08T15:18:03 CDT" duration-ms="1500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" started-at="2021-08-08T15:18:04 CDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-08T15:19:23 CDT" duration-ms="79183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Add to Cart functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" started-at="2021-08-08T15:19:23 CDT" name="tearDownClass" finished-at="2021-08-08T15:19:23 CDT" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="CloseApplicationURL()[pri:0, instance:Qa.TestRunner.Qa_test_runner@10959ece]" started-at="2021-08-08T15:19:23 CDT" name="CloseApplicationURL" finished-at="2021-08-08T15:19:25 CDT" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplicationURL -->
+      </class> <!-- Qa.TestRunner.Qa_test_runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
